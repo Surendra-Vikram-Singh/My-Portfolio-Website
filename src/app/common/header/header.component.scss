@@ -1,0 +1,20 @@
+@media screen and (max-width: 990px) and (min-width: 100px) {
+    .showcontentcenter {
+        display: flex;
+    }
+    .socialIcons{
+      // background-color: red;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 10000px) and (min-width: 990px) {
+    .showcontentcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+  }

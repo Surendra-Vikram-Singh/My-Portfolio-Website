@@ -1,0 +1,33 @@
+<div class="container-fluid text-dark bg-light py-3">
+  <div class="service-section">
+    <h2>What I Can Do For You</h2>
+    <blockquote>
+      "Surendra was a fantastic developer to work with..."
+      <!-- <ul>
+        <li>Custom Web Development</li>
+        <li>Frontend Development</li>
+        <li>Website Optimization</li>
+        <li>Consulting & Maintenance</li>
+      </ul> -->
+    </blockquote>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>{{services[0].service_desc}}</p>
+        <div class="service">
+          <p class="fw-bolder">My Services Include:</p>
+        </div>
+        <ul *ngFor="let item of services[0]['services']">
+          <li class="fw-medium">{{item.title}}
+            
+          </li>
+          <p>{{item.desc}}</p>
+        </ul>
+      </div>
+    </div>
+    <div class="hire bg-danger text-light text-center text-wrap py-3">
+      <h6 class="fw-normal font-monospace">Hire Me For Your Project!</h6>
+    </div>
+  </div>
+</div>

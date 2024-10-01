@@ -1,0 +1,23 @@
+<div class="container-fluid bg-light text-dark  py-5">
+  <div class="testimonials-section">
+    <h2>What My Clients Say</h2>
+    <blockquote>
+      "Surendra was a fantastic developer to work with..."
+    </blockquote>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of review">
+        <div class="card h-100">
+          <!-- <h5 class="card-header">{{item.title}}</h5> -->
+          <div class="card-body">
+            <!-- <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text"><b>Technologies: </b>{{item.technologies}}</p> -->
+            <p class="card-text">{{item.message}}</p>
+            <p class="card-text"><i>—[{{item.client +", "+ item.company}}]</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

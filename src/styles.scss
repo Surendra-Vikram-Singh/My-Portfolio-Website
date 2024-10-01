@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// .container-fluid{
+//   padding: 0% !important;
+// }
+
+*::-webkit-scrollbar {
+    width: 0px !important;
+    background-color: white !important;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    width: 0px !important;
+    background-color: whitesmoke !important;
+    border-radius: 0px !important;
+  }
+  
+  *::-webkit-scrollbar:horizontal {
+    width: 0px !important;
+    background-color: white !important;
+  }
+  
+  *::-webkit-scrollbar-thumb:horizontal {
+    width: 0px !important;
+    background-color: whitesmoke !important;
+    border-radius: 0px;
+  }

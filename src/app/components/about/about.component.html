@@ -1,0 +1,32 @@
+<div class="container-fluid bg-light text-dark py-3">
+  <div class="about-section">
+    <h2>A Passion for Code, a Vision for the Web</h2>
+    <blockquote>
+      "A Passion for Code, a Vision for the Web..."
+    </blockquote>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>I am Surendra Vikram Singh, a frontend developer with a passion for clean code and user experience. For over
+          three years, I have helped clients bring their ideas to life with cutting-edge web solutions. Whether working
+          on complex web applications or sleek websites, my goal is to deliver intuitive designs that not only function
+          flawlessly but also captivate users.</p>
+
+        <p>When I’m not coding, I enjoy learning the latest web technologies and improving my craft. I believe in
+          blending creativity with functionality to create digital experiences that leave a lasting impression.</p>
+
+        <h3>My Core Skills:</h3>
+
+        <ul *ngFor="let item of skills">
+          <li><b>{{item.title}} : </b><span class="normal">{{item.skills}}</span></li>
+          <!-- <p>{{item.skills}}</p> -->
+        </ul>
+      </div>
+    </div>
+    <div class="collabe bg-danger text-light text-wrap py-3">
+      <h6 class="fw-normal font-monospace">Let’s collaborate to bring your vision to life. My mission is to make your
+        brand stand out online!</h6>
+    </div>
+  </div>
+</div>
